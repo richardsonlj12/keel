@@ -7,9 +7,9 @@
   "source_name": "BEA National Income and Product Accounts, via FRED",
   "source_url": "https://fred.stlouisfed.org/series/CPATAX",
   "license": "US government work, public domain",
-  "fetched_at": "2026-11-18T18:57:44Z",
+  "fetched_at": "2026-11-23T23:07:42Z",
   "data_through": "2026-04-01",
-  "max_lag_days": 150,
+  "max_lag_days": 180,
   "breaks": [],
   "annotations": [
     {

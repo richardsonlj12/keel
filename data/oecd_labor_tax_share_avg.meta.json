@@ -7,7 +7,7 @@
   "source_name": "OECD Revenue Statistics",
   "source_url": "https://data-explorer.oecd.org/?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REV_COMP_OECD%40DF_RSOECD&df[ag]=OECD.CTP.TPS",
   "license": "Source: OECD, Revenue Statistics 2025. OECD terms and conditions: https://www.oecd.org/en/about/terms-conditions.html",
-  "fetched_at": "2026-11-18T19:01:04Z",
+  "fetched_at": "2026-11-23T23:07:44Z",
   "data_through": "2023-01-01",
   "max_lag_days": 1140,
   "breaks": [],

@@ -7,7 +7,7 @@
   "source_name": "Anthropic Economic Index (Hugging Face)",
   "source_url": "https://huggingface.co/datasets/Anthropic/EconomicIndex",
   "license": "Data released under CC-BY, code released under MIT License (dataset README, License section; the dataset card front matter says license: mit)",
-  "fetched_at": "2026-11-19T22:13:27Z",
+  "fetched_at": "2026-11-23T23:07:48Z",
   "data_through": "2026-05-31",
   "max_lag_days": 270,
   "breaks": [

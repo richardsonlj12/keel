@@ -7,8 +7,8 @@
   "source_name": "Census Business Trends and Outlook Survey (BTOS), by employment size class",
   "source_url": "https://www.census.gov/hfp/btos",
   "license": "US government work, public domain",
-  "fetched_at": "2026-11-18T19:01:04Z",
-  "data_through": "2026-11-01",
+  "fetched_at": "2026-11-23T23:07:44Z",
+  "data_through": "2026-11-15",
   "max_lag_days": 45,
   "breaks": [],
   "annotations": [
@@ -18,9 +18,9 @@
     },
     {
       "date": "2026-10-19",
-      "label": "Census question wording changed: term and examples changed, 'AI' relabelled 'Super Intelligence or SI (formerly AI)' and new examples given (from the collection starting 19 October 2026)"
+      "label": "Census question wording changed: term and examples changed, 'AI' relabelled 'Super Intelligence or SI (formerly AI)', and new examples given (from the collection starting 19 October 2026)"
     }
   ],
-  "notes": "Firm-weighted share answering Yes (the core AI-use question) within each employment size class, with Census standard errors (column se, percentage points), from Employment Size Class.xlsx (sheets Response Estimates and Response Standard Errors). Size classes: 1 to 4 employees; 5 to 9 employees; 10 to 19 employees; 20 to 49 employees; 50 to 99 employees; 100 to 249 employees; 250 or more employees. Each estimate is dated by the end of its two-week collection period. The file holds only the new-wording series, from the 2025-11-17 collection (sample dates 202524 to 202622). Question as printed in the workbook (it prints the October 2026 wording for every period): In the last two weeks, did this business use Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI) in any of its business functions? (Examples of SI use include: SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service; SI-powered forecasting or pricing; SI-driven computer vision for quality control, etc.) Census published no estimate for sample dates 202521 to 202523. The question actually asked from 2025-11-17 to 2026-10-18 used the term 'Artificial Intelligence (AI)' in 'any of its business functions'. The change of term from 'AI' to 'Super Intelligence or SI', with new examples, began with the collection fielded from 2026-10-19 (shown as a chart marker, not a break).",
+  "notes": "Firm-weighted share answering Yes (the core AI-use question) within each employment size class, with Census standard errors (column se, percentage points), from Employment Size Class.xlsx (sheets Response Estimates and Response Standard Errors). Size classes: 1 to 4 employees; 5 to 9 employees; 10 to 19 employees; 20 to 49 employees; 50 to 99 employees; 100 to 249 employees; 250 or more employees. Each estimate is dated by the end of its two-week collection period. The file holds only the new-wording series, from the 2025-11-17 collection (sample dates 202524 to 202623). Question as printed in the workbook (it prints the October 2026 wording for every period): In the last two weeks, did this business use Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI) in any of its business functions? (Examples of SI use include: SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service; SI-powered forecasting or pricing; SI-driven computer vision for quality control, etc.) Census published no estimate for sample dates 202521 to 202523. The question actually asked from 2025-11-17 to 2026-10-18 used the term 'Artificial Intelligence (AI)' in 'any of its business functions'. The change of term from 'AI' to 'Super Intelligence or SI', with new examples, began with the collection fielded from 2026-10-19 (shown as a chart marker, not a break).",
   "role": "context"
 }
