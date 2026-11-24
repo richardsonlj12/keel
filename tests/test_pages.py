@@ -235,7 +235,16 @@ def test_method_section_cites_chart_markers(repo):
     assert "[(U.S. Census Bureau 2026)](../sources.qmd#census2026)" in ea1
 
 
+def _set_meta(repo, sid, **fields):
+    """Fix a series' metadata in the test's copy: the live values move with each weekly refresh."""
+    path = repo / "data" / f"{sid}.meta.json"
+    meta = json.loads(path.read_text(encoding="utf-8"))
+    meta.update(fields)
+    path.write_text(json.dumps(meta), encoding="utf-8")
+
+
 def test_grid_position_and_coverage_filled_automatically(repo):
+    _set_meta(repo, "us_labor_tax_share", data_through="2026-04-01")
     pages.build(repo, today=TODAY)
     rows = dict(_table(_page(repo, "GD1")))
     assert rows["Grid position"] == "**Displacement · Government**"
@@ -305,6 +314,8 @@ def test_every_indicator_page_ends_with_feedback_line(repo):
 def test_stale_badge_rendered_when_stale(repo):
     pages.build(repo, today=TODAY)
     assert "Stale since" not in _page(repo, "EA1")
+    # The due date moves with each refresh, so fix the data's end here: 1 November 2026 + 45 days.
+    _set_meta(repo, "btos_ai_use", data_through="2026-11-01", max_lag_days=45)
     pages.build(repo, today=date(2030, 1, 1))
     assert "Stale since 16 December 2026" in _page(repo, "EA1")
 
